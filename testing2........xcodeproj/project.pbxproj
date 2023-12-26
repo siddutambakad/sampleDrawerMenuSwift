@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		ECC5EF182B35787100F1334C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC5EF172B35787100F1334C /* AppDelegate.swift */; };
 		ECC5EF1A2B35787100F1334C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC5EF192B35787100F1334C /* SceneDelegate.swift */; };
-		ECC5EF1C2B35787100F1334C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC5EF1B2B35787100F1334C /* ViewController.swift */; };
 		ECC5EF1F2B35787100F1334C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC5EF1D2B35787100F1334C /* Main.storyboard */; };
 		ECC5EF212B35787300F1334C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC5EF202B35787300F1334C /* Assets.xcassets */; };
 		ECC5EF242B35787300F1334C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC5EF222B35787300F1334C /* LaunchScreen.storyboard */; };
+		ECC5EF2C2B3578CA00F1334C /* MainVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC5EF2B2B3578CA00F1334C /* MainVc.swift */; };
+		ECC5EF2E2B3578E300F1334C /* SecondMainVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC5EF2D2B3578E300F1334C /* SecondMainVc.swift */; };
+		ECC5EF322B359EF900F1334C /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC5EF312B359EF900F1334C /* AboutUs.swift */; };
+		ECEDFE402B3829FA00C6E027 /* settingVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEDFE3F2B3829FA00C6E027 /* settingVc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ECC5EF142B35787100F1334C /* testing2........app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testing2........app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC5EF172B35787100F1334C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECC5EF192B35787100F1334C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ECC5EF1B2B35787100F1334C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ECC5EF1E2B35787100F1334C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECC5EF202B35787300F1334C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECC5EF232B35787300F1334C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECC5EF252B35787300F1334C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC5EF2B2B3578CA00F1334C /* MainVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVc.swift; sourceTree = "<group>"; };
+		ECC5EF2D2B3578E300F1334C /* SecondMainVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondMainVc.swift; sourceTree = "<group>"; };
+		ECC5EF312B359EF900F1334C /* AboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
+		ECEDFE3F2B3829FA00C6E027 /* settingVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingVc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +64,14 @@
 			children = (
 				ECC5EF172B35787100F1334C /* AppDelegate.swift */,
 				ECC5EF192B35787100F1334C /* SceneDelegate.swift */,
-				ECC5EF1B2B35787100F1334C /* ViewController.swift */,
 				ECC5EF1D2B35787100F1334C /* Main.storyboard */,
 				ECC5EF202B35787300F1334C /* Assets.xcassets */,
 				ECC5EF222B35787300F1334C /* LaunchScreen.storyboard */,
 				ECC5EF252B35787300F1334C /* Info.plist */,
+				ECC5EF2B2B3578CA00F1334C /* MainVc.swift */,
+				ECC5EF2D2B3578E300F1334C /* SecondMainVc.swift */,
+				ECC5EF312B359EF900F1334C /* AboutUs.swift */,
+				ECEDFE3F2B3829FA00C6E027 /* settingVc.swift */,
 			);
 			path = testing2.......;
 			sourceTree = "<group>";
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECC5EF1C2B35787100F1334C /* ViewController.swift in Sources */,
+				ECC5EF2E2B3578E300F1334C /* SecondMainVc.swift in Sources */,
+				ECC5EF2C2B3578CA00F1334C /* MainVc.swift in Sources */,
+				ECC5EF322B359EF900F1334C /* AboutUs.swift in Sources */,
+				ECEDFE402B3829FA00C6E027 /* settingVc.swift in Sources */,
 				ECC5EF182B35787100F1334C /* AppDelegate.swift in Sources */,
 				ECC5EF1A2B35787100F1334C /* SceneDelegate.swift in Sources */,
 			);
